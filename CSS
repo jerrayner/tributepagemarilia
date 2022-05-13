@@ -1,0 +1,107 @@
+body {
+  font-size: 18px;
+  font-family: Tahoma;
+  background-image: url("abstract_music_notes_background_1706.jpg");
+
+}
+header {
+  text-align: center;
+  background-color: black;
+  color: rgb(221, 221, 221);
+  height: 600px;
+  width: 1700px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+margin-top: 20px;
+
+}
+.titulo p {
+  font-size: 15px;
+  margin-top: -20px;
+}
+.titulo h1 {
+ font-family: calibri;
+}
+div .img-caption {
+  font-size: 12px;
+  margin-top: -20px;
+}
+header img {
+  max-width: 100%;
+  min-height: 100%;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  filter: grayscale(70%);
+}
+section {
+  display: flex;
+}
+section .tribute-info {
+  background-color: #ccc;
+  text-align: center;
+  margin-top: -2px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  white-space: normal;
+  width: 1600px;
+  margin-left: 85px;
+}
+section h2 {
+  font-family: Arial;
+}
+.font {
+  font-size: 18px;
+
+}
+.frase {
+  background-color: black;
+  color:rgb(221, 221, 221);
+  border-radius: 20px;
+  height: 75px;
+  width: 1600px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -15px;
+  font-size: 15px;
+  margin-left: 85px;
+}
+footer {
+  background-color: #ccc;
+  height: 200px;
+  margin-top: px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+  width: 1700px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin-left: 40px;
+
+ 
+}
+ .rodape {
+  text-align: center;
+}
+footer a {
+text-decoration: underline;
+color: black;
+text-align: center;
+}
+section strong {
+  font-size: 22px;
+  font-family: calibri;
+  border: 1px solid rgb(150, 150, 150);
+  border-bottom: 15px 
+}
+.copy {
+  border-top: 1px solid rgb(75, 74, 74);
+  text-align: end;
+}
+@media (max-weight:600px) {
+header {
+  height: auto;
+}
+}
